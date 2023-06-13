@@ -7,7 +7,7 @@ const HomePage = () => {
     <>
     <div className='home__container'>
       <h1>bienvenido a mi Pagina Principal </h1>
-    <img src="../../public/Hernancepia4.png" alt="" />
+    <img src="../../Hernancepia4.png" alt="" />
     </div>
     </>
   )
