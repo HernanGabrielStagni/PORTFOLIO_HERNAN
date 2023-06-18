@@ -1,19 +1,47 @@
 .navbar__container{
     width: 100%;
     display: flex;
+    background-color: rgb(110, 245, 26);
+    position: relative;
 
-background-color: red;
+
+
+
+
+
 }
 
 
 .navbar__Ul{
 
-/* background-color: rebeccapurple; */
-width: 100%;
+background-color: rgb(173, 141, 205);
+
 display: flex;
+flex-direction: column;
 padding: 1em;
 gap: 1em;
-color: aquamarine;
-font-size: 1.5em;
+color: rgb(238, 41, 27);
+font-size: 1em;
+position: absolute;
 }
 
+.link{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* background-color: rgb(195, 129, 24); */
+
+}
+
+
+.navbar__icon{
+background-color: rgb(139, 139, 228);
+width: 20%;
+}
+
+
+
+  @media (min-width: 700px)  {
+
+   
+    
+    }

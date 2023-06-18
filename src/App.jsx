@@ -4,7 +4,7 @@ import './App.css'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import Navbar from './components/Navbar/Navbar'
-
+import Footer from './components/Footer/Footer'
 function App() {
  
   return (
@@ -22,7 +22,7 @@ function App() {
           <Route path='*'  element={<h1>Esta ruta no existe❌</h1>} />
         
       </Routes>
-      <div className='footer'>Footer</div>
+      <Footer/>
      
       
     </div>
