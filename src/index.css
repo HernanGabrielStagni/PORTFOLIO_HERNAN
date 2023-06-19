@@ -6,6 +6,8 @@
 }
 body{
  margin: 0;
+ background-color: aqua;
+ 
  }
 
 
@@ -14,12 +16,12 @@ body{
   margin-bottom: 0;
  
 }
-ul{
+/* ul{
   
   padding-left: 0;
   list-style: none;
   text-decoration: none;
-}
+} */
 
 
 input{
