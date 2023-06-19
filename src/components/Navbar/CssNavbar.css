@@ -14,16 +14,16 @@
 
 .navbar__Ul{
 
-background-color: rgb(173, 141, 205);
+/* background-color: rgb(173, 141, 205); */
 /* width: 30%; */
 display: flex;
 flex-direction: column;
-padding: 1em;
+padding: .5em;
 
 color: rgb(238, 41, 27);
 font-size: 1em;
 position: absolute;
-gap: .5em;
+gap: .3em;
 }
 
 
@@ -49,7 +49,7 @@ padding: 10px;
   height: 100%;
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- background-color: rgb(195, 129, 24); 
+ background-color: rgb(222, 220, 54); 
   text-align: center;
   text-decoration: none;
   border-radius: 15px;
@@ -65,12 +65,12 @@ a.link:hover{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  background-color: rgb(58, 24, 195); 
 
- transform: rotateX(360deg) scale(1.5) translate(35%);
+ transform: rotateX(360deg) scale(1.2) translate(15%, -5%);
 
  /* transform: rotateY(360deg) scale(2) translate(30%); */
  /* position: absolute;
  left: 100%; */
- transition: all ease-in-out 800ms;
+ transition: all ease-in-out 300ms;
 
 
 }
